@@ -1,0 +1,186 @@
+.links li a {
+    color: white; 
+}
+#getstarted a {
+    color: green;
+}
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic ; 
+  background-color:antiquewhite;
+}
+a {
+  text-decoration: none;
+  font-style: italic;
+}
+ul {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  
+}
+nav {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    width: 35%;
+    background-color: green;
+    border-radius: 15px;
+    display: inline-block;
+    padding : 10 px 15 px;
+    text-decoration:none ;
+    transition: 0.2 ease;
+}
+
+nav  :hover{
+    transform:translateY (-3px);
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+
+.landing-page header {
+  min-height: 80px;
+  display: flex;
+}
+
+  .landing-page header {
+    min-height: auto;
+    display: initial;
+  }
+
+.landing-page header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.landing-page header .logo {
+  color:GREEN;
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-left: 25px;
+  font-weight: 600;
+  font-style: monaco;
+}
+
+.landing-page header .links {
+  display: flex;
+  align-items: center;
+}
+
+.landing-page header .links li {
+  margin-left: 30px;
+  color: black;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.landing-page header .links li:last-child {
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: green;
+  background-color: white;
+}
+
+.landing-page .content .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 140px;
+  min-height: calc(100vh - 80px);
+}
+
+.landing-page .content .info h1 {
+  color: green;
+  font-size: 44px;
+}
+.landing-page .content .info p {
+  margin: 0;
+  line-height: 1.6;
+  font-size: 15px;
+  color: black;
+  font-style : oblique;
+}
+.landing-page .content .info button {
+  border: 0;
+  border-radius: 20px;
+  padding: 12px 30px;
+  margin-top: 30px;
+  cursor: pointer;
+  color: whitesmoke;
+  background-color: green;
+}
+.landing-page .content .image img {
+  max-width: 100%;
+  border-radius: 50%;
+  height: 500px;
+  width: 500px;
+  max-width: 700px;
+  
+}
+body{
+  background-color :antiquewhite;
+}
+footer{
+    text-align: center;
+    font-style: oblique;
+    height: 70px;
+    background-color: green;
+    border-radius: 15px;
+}
+.footer {
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+}
+
+
+.social-links {
+  display: flex;
+  justify-content: center; 
+  gap: 30px; 
+}
+
+.column {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+
+.social-icon {
+  width: 30px; 
+  height: 30px;
+  margin-bottom: 14px; 
+  transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.2); 
+}
+
+.column p {
+  margin: 0;
+  font-size: 14px;
+  color: #ddd;
+}
+
+.column p:hover {
+  color: #fff; /* Hover paytida matn rangini o'zgartirish */
+}
+.footertext{
+  font-style: bold;
+}
+
+
+/* End Landing Page */
